@@ -1,0 +1,6 @@
+@import '../Vars.scss';
+
+.main { 
+    @include display;
+    height: 80%;
+}

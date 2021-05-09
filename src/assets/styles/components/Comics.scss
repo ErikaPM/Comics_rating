@@ -1,0 +1,35 @@
+@import '../Vars.scss';
+
+.comic {
+    @include display;
+    margin: 15px;
+}
+
+.comics-container {
+    @include display;
+    justify-content: center;
+    padding: 10px;
+    height: 60vh;
+    width: 100%;
+}
+
+.comic-description {
+    font-size: 1.2em;
+    font-style: oblique;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.comic-img {
+    max-width: 800px;
+    height: 400px;
+    object-fit: scale-down;
+}
+
+.comic-title{
+    font-size: 2rem;
+    margin: 10px;
+    color: #EB8A90;
+    font-weight: bold;
+}
+

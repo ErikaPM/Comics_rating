@@ -1,0 +1,23 @@
+@import '../Vars.scss';
+
+.stars-container {
+    @include display;
+    justify-content: space-around;
+    height: 24vh;
+    padding: 10px;
+    width: 50vh;
+}
+
+.stars-array {
+    display: flex;
+}
+
+.stars{
+    color: $main-font-color;
+    height: 50px;
+    width: 50px;
+}
+
+.cursor {
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+@import './Vars.scss';
+
+.App {
+    background-color: #07004D;
+    height: 100vh;
+    color: $main-font-color;
+    font-family: $main-font;
+}
+
+.rating-container {
+    height: 92%;
+    background-color: $main-background;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
